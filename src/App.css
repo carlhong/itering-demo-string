@@ -1,0 +1,23 @@
+.ds-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/bg.png) top no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.ds-container {
+
+}
+.ds-logo {
+    width: 372px !important;
+    margin: 0 auto;
+}
+.ds-form {
+    margin-top: 70px;
+}
+.ds-status {
+    height: 20px;
+    color: #FFF;
+}
