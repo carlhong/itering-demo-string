@@ -7,15 +7,29 @@
     display: flex;
     align-items: center;
 }
-.ds-container {
-
-}
 .ds-logo {
     width: 372px !important;
     margin: 0 auto;
 }
 .ds-form {
-    margin-top: 70px;
+    width: 684px;
+    margin: 70px auto 0;
+}
+.ui.form .input input[type=text] {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.ui.form .input input[type=text]:focus {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.ds-form .ui.primary.button {
+    width: 134px;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background:linear-gradient(289deg,rgba(9,60,195,1) 0%,rgba(39,166,255,1) 100%);
 }
 .ds-status {
     height: 20px;
